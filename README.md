@@ -52,10 +52,13 @@ Pour chaque exercice :
 - [ ] 1.3 Documenter votre solution ici
 
 _Votre réponse pour l'exercice 1 :_
-```
+- Le debounce permet de retarder l'exécution d'une fonction (ici, la recherche) jusqu'à ce qu'un certain temps se soit écoulé depuis la dernière action (par exemple, 1000ms après la dernière frappe).
+
+- Le hook useDebounce est utilisé pour retarder la mise à jour de la valeur de recherche, ce qui réduit le nombre de requêtes inutiles.
+![Search.png](src/image/Search.png)
 Expliquez votre solution ici
-[Ajoutez vos captures d'écran]
-```
+
+
 
 ### Exercice 2 : Context et Internationalisation
 #### Objectif : Gérer les préférences de langue
@@ -65,10 +68,15 @@ Expliquez votre solution ici
 - [ ] 2.3 Documenter votre solution ici
 
 _Votre réponse pour l'exercice 2 :_
-```
-Expliquez votre solution ici
-[Ajoutez vos captures d'écran]
-```
+
+- LanguageContext : Ce contexte permet de gérer la langue de l'application de manière globale.
+
+- Sélecteur de langue : Un composant select permet à l'utilisateur de choisir entre plusieurs langues.
+
+
+![langeuage_en.png](src/image/langeuage_en.png)
+![langeuage_fr.png](src/image/langeuage_fr.png)
+
 
 ### Exercice 3 : Hooks Personnalisés
 #### Objectif : Créer des hooks réutilisables
@@ -78,10 +86,9 @@ Expliquez votre solution ici
 - [ ] 3.3 Documenter votre solution ici
 
 _Votre réponse pour l'exercice 3 :_
-```
-Expliquez votre solution ici
-[Ajoutez vos captures d'écran]
-```
+
+![localStorage_code.png](src/image/localStorage_code.png)
+![localStorage.png](src/image/localStorage.png)
 
 ### Exercice 4 : Gestion Asynchrone et Pagination
 #### Objectif : Gérer le chargement et la pagination
@@ -91,10 +98,10 @@ Expliquez votre solution ici
 - [ ] 4.3 Documenter votre solution ici
 
 _Votre réponse pour l'exercice 4 :_
-```
-Expliquez votre solution ici
-[Ajoutez vos captures d'écran]
-```
+
+![pagination_1.png](src/image/pagination_1.png)
+![pagination_2.png](src/image/pagination_2.png)
+![pagination_3.png](src/image/pagination_3.png)
 
 ## Rendu
 
